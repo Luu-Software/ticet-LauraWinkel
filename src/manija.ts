@@ -4,7 +4,7 @@ export function generarLorem(n: number): string {
       return "Lorem Ipsum"; // caso base
     } else {
       return "Lorem Ipsum " + generarLorem(n - 1); // llamada recursiva, = cada vez va sumando uno hasta que n = 1
-      // n = 5 --- Lorem Ipsum + n = 4 --- Lorem Ipsum Lorem Ipsum + n = 4 .....
+      // n = 5 --- Lorem Ipsum + n = 4 --- Lorem Ipsum Lorem Ipsum + n = 3 .....
     }
   }
 
